@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  background: #4056A1;
+  color: #FFFFFF;
+  height: 120px;
+  padding: 1.5em;
+  align-items: center;
+  justify-content: space-between;
+  js position:fixed;
+}
+
+.logo {
+  display: flex;
+  font-size: 1.8em;
+  font-family: "Bungee", cursive;
+;
+ }
+
+ .post {
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+ }
+ 
+ #write {
+  flex-direction: row;
+ }
+ 
+ .fa-solid{
+  align-self: center;
+  color: red;
+ }
