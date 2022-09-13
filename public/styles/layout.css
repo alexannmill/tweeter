@@ -27,3 +27,8 @@ body {
  body {
   font-family: "Source Sans Pro", sans-serif;
  }
+
+ .container{
+  width: 90%;
+  border: #545149, 1px;
+ }

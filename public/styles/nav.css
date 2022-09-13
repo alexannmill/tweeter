@@ -6,7 +6,8 @@
   padding: 1.5em;
   align-items: center;
   justify-content: space-between;
-  js position:fixed;
+  position: fixed;
+  width: -webkit-fill-available
 }
 
 .logo {
@@ -23,6 +24,7 @@
  }
  
  #write {
+  font-family: "Source Sans Pro", sans-serif
   flex-direction: row;
  }
  
