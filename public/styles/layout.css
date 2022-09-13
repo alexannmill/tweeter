@@ -25,10 +25,17 @@ body {
  */
 
  body {
+  display: flex;
+  flex-direction:column;
   font-family: "Source Sans Pro", sans-serif;
+  align-items: center;
  }
 
  .container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f1ec;
   width: 90%;
-  border: #545149, 1px;
+  justify-items: center;
+  align-content: center;
  }
