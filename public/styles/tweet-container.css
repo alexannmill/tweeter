@@ -27,12 +27,13 @@
   justify-content: space-between;
   align-items: center;
   height: 3em;
-  font-size: .6em;
+  font-size: .8em;
   padding: 0.5em;
 }
 
 .tweetimgname {
   display: flex;
+  align-items: center;
 }
 
 .fa-sharp {
@@ -45,8 +46,9 @@
   color: #c9d2e6;
 }
 
-.fa-solid {
-  color: #4056a1;
+.fa-regular {
+  font-size: 1.8em;
+  padding: .4em
 }
 .fa-solid:hover {
   color: #c59933;
