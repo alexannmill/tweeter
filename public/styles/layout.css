@@ -34,8 +34,5 @@ body {
  .container{
   display: flex;
   flex-direction: column;
-  background-color: #f4f1ec;
   width: 90%;
-  justify-items: center;
-  align-content: center;
  }

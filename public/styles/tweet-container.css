@@ -1,0 +1,53 @@
+.tweetbox {
+  display: flex;
+  border: 0.2em solid #767676;
+  flex-direction: column;
+}
+
+.tweetbox:hover {
+  box-shadow: .2em .2em lightgray ;
+}
+.tweetheader {
+  display: flex;
+  width: 98%;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+.tweetbody {
+  display: flex;
+  padding: 0.5em;
+}
+
+.tweetfooter {
+  display: flex;
+  align-self: center;
+  border-top: 0.2em solid #767676;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+  font-size: .6em;
+  padding: 0.5em;
+}
+
+.tweetimgname {
+  display: flex;
+}
+
+.fa-sharp {
+  display: flex;
+  color: #4056a1;
+}
+
+.handle {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #c9d2e6;
+}
+
+.fa-solid {
+  color: #4056a1;
+}
+.fa-solid:hover {
+  color: #c59933;
+}

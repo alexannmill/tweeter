@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css">
     <link rel="stylesheet" href="/styles/header.css" type="text/css">
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css">
+    <link rel="stylesheet" href="/styles/tweet-container.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" type="text/css" />
     
     <!-- External JS -->
@@ -45,7 +46,7 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form class ="form">
+        <form>
           <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
           <div class="button-count">
             <button class="tweet-button" type="submit">Tweet</button>
@@ -53,6 +54,26 @@
           </div>
         </form>
       </section>
+      <article class="tweetbox">
+        <header class="tweetheader"> 
+          <div class="tweetimgname">
+            <i class="fa-regular fa-face-meh-blank"></i>
+            <span>name</span>
+          </div>
+          <span class="handle">@handle</span>
+        </header>
+        <p class="tweetbody">
+         Use CSS to implement the hover state shown in the gif below
+        </p>
+        <footer class="tweetfooter"> 
+          <h6>10 days ago</h6>
+          <div class="tweeticons">
+            <i class="fa-sharp fa-solid fa-flag"></i>
+            <i class="fa-sharp fa-solid fa-retweet"></i>
+            <i class="fa-sharp fa-solid fa-heart"></i>
+          </div>
+        </footer>
+      </article>
     </main>
   </body>
   </html>
