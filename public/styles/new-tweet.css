@@ -39,4 +39,18 @@
   color: red;
 }
 
+.invalid{
+  color: red;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 5px;
+    border: 2px solid red
+}
 
+.error-handling{
+  color: red;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 5px;
+    border: 2px red
+}

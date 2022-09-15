@@ -55,6 +55,14 @@
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
+      <!-- <div class="error-handling">
+      </div> -->
+        <div id="CharEmpty" class="invalid">Invalid Entry.  
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+        <div id="CharLimit" class="invalid">Over Character Limit.  
+          <i class="fa-solid fa-circle-exclamation"></i>
+        </div>
       <form id="form">
         <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="button-count">
