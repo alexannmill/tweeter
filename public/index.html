@@ -6,6 +6,7 @@
   <title>Tweeter - Home Page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
   <!-- Font CSS-->
   <link
     href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap"
@@ -55,12 +56,15 @@
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-      <!-- <div class="error-handling">
-      </div> -->
-        <div id="CharEmpty" class="invalid">Invalid Entry.  
+  <!-- Error Handling  -->
+      <div id="CharEmpty" class="invalid">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          Invalid Entry, please provide a tweet!  
           <i class="fa-solid fa-circle-exclamation"></i>
         </div>
-        <div id="CharLimit" class="invalid">Over Character Limit.  
+        <div id="CharLimit" class="invalid">
+          <i class="fa-solid fa-circle-exclamation"></i>
+          Invalid Entry, please tweet within character limit!  
           <i class="fa-solid fa-circle-exclamation"></i>
         </div>
       <form id="form">

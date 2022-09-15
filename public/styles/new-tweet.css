@@ -14,7 +14,7 @@
   border-left: none;
   border-right: none;
   resize: none;
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 .tweet-button {
@@ -39,18 +39,16 @@
   color: red;
 }
 
-.invalid{
+.invalid {
   color: red;
-    font-size: 1.5rem;
-    display: flex;
-    margin-top: 5px;
-    border: 2px solid red
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  border: 0.2em solid red;
+  padding: 0.2em;
+  justify-content: center;
 }
 
-.error-handling{
-  color: red;
-    font-size: 1.5rem;
-    display: flex;
-    margin-top: 5px;
-    border: 2px red
+.fa-solid {
+  padding: 0.5em
 }

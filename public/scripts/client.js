@@ -15,23 +15,24 @@ $(function () {
   const $form = $("#form");
   $("#CharEmpty").hide()
   $("#CharLimit").hide()
+  $(".error-handling").hide()
 
   $form.submit((event) => {
     event.preventDefault();
     const text = $("#tweet-text").val();
-    //validation of text
-    
     if (text === "" || null) {
       $("#CharEmpty").slideDown();
       setTimeout(() => {
         $("#CharEmpty").slideUp()
       }, 4000); ;
+      return
     }
     if (text.length > 140) {
     $("#CharLimit").slideDown();
     setTimeout(() => {
       $("#CharLimit").slideUp()
     }, 4000); ;
+    return
     }
     
     const configData = $form.serialize();
@@ -94,31 +95,3 @@ $(function () {
   };
   loadTweets();
 });
-    //     const errCheck = error(text)
-    //     console.log('errCheck:', errCheck)
-    //     const errMessage = errMsg(errCheck)
-    //     console.log('errMessage:', errMessage)
-        
-    //     const errMsg = (errCheck) => {
-    //    const $message = error(text)
-    //    if (!message){
-    //      return
-    //     }
-    //     $(".error-handling").append(`
-    //     <div class=invalid>
-    //     <p>${message}</p>
-    //     </div>
-    //     `)
-    //     $message.slideDown(200);
-    //   }
-      
-    //   const error = (text) => {
-    //   let errorMsg = null
-    //   if (text === "" || null) {
-    //     errorMsg = "Invalid Entry"
-    //   } 
-    //   if (text.length > 141) {
-    //     errorMsg = "Over Character Limit"
-    //   } 
-    //   return errorMsg
-    // }
