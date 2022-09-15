@@ -31,8 +31,30 @@ body {
   align-items: center;
  }
 
- .container{
+ .container {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  margin: 10%;
+ }
+
+ @media (min-width: 768px){ 
+  .headerTweet {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .container {
+    width: 160%;
+    margin: 2em;
+  }
+  .header {
+    padding: 2em;
+    border-radius: 10px;
+    margin-left: 2em;
+    margin-top: 2em;
+  }
+
+  .navbar {
+
+  }
  }

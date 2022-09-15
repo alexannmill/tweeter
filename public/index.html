@@ -44,29 +44,29 @@
       <i class="fa-solid fa-angles-down"></i>
   </nav>
   <!-- Page-specific (main) content here -->
-  <header class=" header">
-    <div>
-      <img src="/images/profile-hex.png">
-    </div>
-    <br>
-    <div>
-      <h2>Alex Miller</h2>
-    </div>
-  </header>
-  <main class="container">
-    <section class="new-tweet">
-      <h2>Compose Tweet</h2>
-  <!-- Error Handling  -->
+  <div class="headerTweet">
+    <header class=" header">
+      <div>
+        <img src="/images/profile-hex.png">
+      </div>
+      <br>
+      <div>
+        <h2>Alex Miller</h2>
+    </header>
+    <main class="container">
+      <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <!-- Error Handling  -->
       <div id="CharEmpty" class="invalid">
-          <i class="fa-solid fa-circle-exclamation"></i>
-          Invalid Entry, please provide a tweet!  
-          <i class="fa-solid fa-circle-exclamation"></i>
-        </div>
-        <div id="CharLimit" class="invalid">
-          <i class="fa-solid fa-circle-exclamation"></i>
-          Invalid Entry, please tweet within character limit!  
-          <i class="fa-solid fa-circle-exclamation"></i>
-        </div>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        Invalid Entry, please provide a tweet!
+        <i class="fa-solid fa-circle-exclamation"></i>
+      </div>
+      <div id="CharLimit" class="invalid">
+        <i class="fa-solid fa-circle-exclamation"></i>
+        Invalid Entry, please tweet within character limit!
+        <i class="fa-solid fa-circle-exclamation"></i>
+      </div>
       <form id="form">
         <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="button-count">
@@ -75,9 +75,11 @@
         </div>
       </form>
     </section>
+    <!-- tweet -->
     <section id="tweet-container">
     </section>
   </main>
+</div>
 </body>
 
 </html>

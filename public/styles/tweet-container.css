@@ -6,6 +6,7 @@
 .tweet {
   border: 0.2em solid #767676;
   margin-bottom: 10px;
+  border-radius: 3px;
 }
 .tweet:hover {
   box-shadow: .2em .2em lightgray ;
