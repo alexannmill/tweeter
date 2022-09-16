@@ -5,7 +5,7 @@
   width: 100vw;
   justify-content: end;
   align-items: center;
-  color: white;
-  background-color: darksalmon;
-  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  color: rgb(205, 53, 94);
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
 }

@@ -35,6 +35,11 @@ body .container {
   margin: 10%;
 }
 
+/* #scroll {
+  display: flex;
+  position: fixed
+} */
+
 @media (min-width: 768px) {
   .headerTweet {
     display: flex;
@@ -52,3 +57,4 @@ body .container {
     margin-top: 2em;
   }
 }
+

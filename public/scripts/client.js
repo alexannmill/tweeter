@@ -7,8 +7,12 @@
 $(function () {
   const $tweetContainer = $("#tweet-container");
   const $form = $("#form");
+  const $post = $(".post");
   $("#CharEmpty").hide();
   $("#CharLimit").hide();
+  $(".new-tweet").hide();
+  // $("#scroll").hide();
+
   // form submit, prevent refresh
   $form.submit((event) => {
     event.preventDefault();
@@ -37,7 +41,13 @@ $(function () {
       url: "/tweets",
       success: () => loadTweets(),
     });
+    $("#tweet-text").val("")
   });
+//toggle new tweet
+  $post.on("click" , () => {
+    $(".new-tweet").slideDown()
+    $("#tweet-text").focus()
+  })
   //creating tweet box for new post via appending
   const createTweetElement = (data) => {
     let $tweet = $(`
@@ -88,6 +98,21 @@ $(function () {
       },
     });
   };
-
+  
   loadTweets();
 });
+
+// Scroll Button, Not functional
+  // $(window).scroll(function() {
+  //   if($(this).scrollTop() > 100) {
+  //     $("#scroll").fadeIn();
+  //   } else {
+  //     $("#scroll").fadeOut();
+  //   }
+  // $("a#scroll").click(function() {
+  //   $("body,html").animate({
+  //     scrollTop: 0
+  //   }, 200);
+  //     return false;
+  //   });
+  // })

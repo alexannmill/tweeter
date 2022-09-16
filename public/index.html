@@ -37,7 +37,7 @@
 
 <body>
   <!-- Top nav bar (fixed) -->
-  <nav class="navbar">
+  <nav class="navbar" id="top-of-page">
     <span class="logo">tweeter</span>
     <div class="post">
       <span id=" write"><strong>Write </strong>a new tweet</span>
@@ -68,6 +68,7 @@
         Invalid Entry, please tweet within character limit!
         <i class="fa-solid fa-circle-exclamation"></i>
       </div>
+      <!-- New Tweet Box -->
       <form id="form">
         <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
         <div class="button-count">
@@ -76,11 +77,15 @@
         </div>
       </form>
     </section>
-    <!-- tweet -->
+    <!-- Tweets -->
     <section id="tweet-container">
-    </section>
+    </section>  
   </main>
 </div>
+<!-- scroll button (not functional) -->
+<!-- <footer>
+  <a href="#top-of-page" id="scroll"><i class="fa-solid fa-arrow-up"></i></a>
+</footer> -->
 </body>
 
 </html>

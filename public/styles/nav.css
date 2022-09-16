@@ -24,6 +24,10 @@
   flex-direction: row;
 }
 
+.post:hover {
+  cursor: pointer;
+}
+
 .fa-solid {
   align-self: center;
   color: red;
