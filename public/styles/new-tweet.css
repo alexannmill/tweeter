@@ -4,8 +4,7 @@
   background-color: #f4f1ec;
   padding-bottom: 1.5em;
 }
-
-#tweet-text {
+.new-tweet #tweet-text {
   display: flex;
   background: #f4f1ec;
   color: #545149;
@@ -16,8 +15,7 @@
   resize: none;
   width: 100%;
 }
-
-.tweet-button {
+.new-tweet .tweet-button {
   display: flex;
   color: white;
   align-items: center;
@@ -25,11 +23,10 @@
   font-family: "Bungee", cursive;
   border: none;
   border-radius: 3px;
-  padding:0.1em;
+  padding: 0.1em;
   font-size: 0.9em;
 }
-
-.button-count {
+.new-tweet .button-count {
   font-family: "Bungee", cursive;
   padding-top: 0.5em;
   display: flex;
@@ -51,7 +48,6 @@
   padding: 0.2em;
   justify-content: center;
 }
-
-.fa-solid {
-  padding: 0.5em
+.invalid .fa-solid {
+  padding: 0.5em;
 }

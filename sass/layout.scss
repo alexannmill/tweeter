@@ -6,7 +6,6 @@
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -14,6 +13,7 @@ html {
 /*
  * Global layout stuff
  */
+
 body {
   color: #545149;
   background-color: #f4f1ec;
@@ -23,32 +23,35 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   font-family: "Source Sans Pro", sans-serif;
   align-items: center;
-}
-body .container {
-  display: flex;
-  flex-direction: column;
-  margin: 10%;
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){ 
   .headerTweet {
     display: flex;
     width: 100%;
     margin-top: 100px;
-  }
-  .headerTweet .container {
-    width: 160%;
-    margin: 2em;
-  }
-  .headerTweet .header {
-    padding: 2em;
-    border-radius: 10px;
-    margin-left: 2em;
-    margin-top: 2em;
+    
+    .container {
+      width: 160%;
+      margin: 2em;
+    }
+    .header {
+      padding: 2em;
+      border-radius: 10px;
+      margin-left: 2em;
+      margin-top: 2em;
+    }
   }
 }

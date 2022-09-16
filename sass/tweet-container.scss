@@ -8,24 +8,23 @@
   margin-bottom: 10px;
   border-radius: 3px;
 }
-
 .tweet:hover {
-  box-shadow: 0.2em 0.2em lightgray;
+  box-shadow: .2em .2em lightgray ;
 }
-
 .tweetheader {
   display: flex;
   width: 98%;
   justify-content: space-between;
   padding: 0.5em;
-}
-.tweetheader .handle {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #c9d2e6;
-}
-.tweetheader .tweetimgname {
-  display: flex;
-  align-items: center;
+
+  .handle {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #c9d2e6;
+  }
+  .tweetimgname {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .tweetbody {
@@ -41,8 +40,9 @@
   justify-content: space-between;
   align-items: center;
   height: 3em;
-  font-size: 0.8em;
+  font-size: .8em;
   padding: 0.5em;
+
 }
 
 .fa-sharp {
@@ -54,7 +54,8 @@
   color: #c59933;
 }
 
+
 .fa-regular {
   font-size: 1.8em;
-  padding: 0.4em;
+  padding: .4em
 }
