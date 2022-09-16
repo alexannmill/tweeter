@@ -1,13 +1,12 @@
 .new-tweet {
   display: flex;
   flex-direction: column;
-  background-color: #f4f1ec;
   padding-bottom: 1.5em;
 }
 .new-tweet #tweet-text {
   display: flex;
-  background: #f4f1ec;
   color: #545149;
+  background-color: rgb(247, 233, 222);
   border-bottom-width: thick;
   border-top: none;
   border-left: none;

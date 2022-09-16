@@ -6,7 +6,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -26,10 +28,10 @@ body {
 
 body {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   font-family: "Source Sans Pro", sans-serif;
   align-items: center;
-  
+
   .container {
     display: flex;
     flex-direction: column;
@@ -37,12 +39,12 @@ body {
   }
 }
 
-@media (min-width: 768px){ 
+@media (min-width: 768px) {
   .headerTweet {
     display: flex;
     width: 100%;
     margin-top: 100px;
-    
+
     .container {
       width: 160%;
       margin: 2em;

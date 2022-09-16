@@ -6,8 +6,8 @@
 .tweet {
   border: 0.2em solid #767676;
   margin-bottom: 10px;
-  border-radius: 3px;
-  background-color: rgba(251, 178, 213, 0.3490196078);
+  border-radius: 5px;
+  background-color: rgba(249, 205, 229, 0.4509803922);
 }
 
 .tweet:hover {
@@ -22,7 +22,7 @@
 }
 .tweetheader .handle {
   font-family: "Source Sans Pro", sans-serif;
-  color: #c9d2e6;
+  color: #405788;
 }
 .tweetheader .tweetimgname {
   display: flex;
